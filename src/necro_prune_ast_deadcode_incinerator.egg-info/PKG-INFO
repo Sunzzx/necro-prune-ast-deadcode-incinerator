@@ -1,0 +1,49 @@
+Metadata-Version: 2.4
+Name: necro-prune-ast-deadcode-incinerator
+Version: 0.1.0
+Summary: AST-level static dead code analysis, symbol reachability graph traversal, and zero-compromise incinerator.
+Author: Sunzzx
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# Necro-Prune-AST-Deadcode-Incinerator 🔥
+
+> **AST-Level Static Dead Code Analysis, Symbol Reachability Graph Traversal, and Surgical Codebase Incinerator**
+
+[![CI](https://github.com/Sunzzx/necro-prune-ast-deadcode-incinerator/actions/workflows/ci.yml/badge.svg)](https://github.com/Sunzzx/necro-prune-ast-deadcode-incinerator)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://python.org)
+
+---
+
+## 1. Architectural Foundations
+
+`necro-prune-ast-deadcode-incinerator` addresses technical debt accumulation across autonomous AI repositories. It treats codebase health as an invariant graph problem:
+
+```mermaid
+flowchart LR
+    A[Python Source Code] --> B[AST Parser NodeVisitor]
+    B --> C[Symbol Definition Table]
+    B --> D[Symbol Reference Table]
+    C --> E[Reachability Diff & Filter]
+    D --> E
+    E --> F[Dead Code Removing Transformer]
+    F --> G[Synthesized Pruned Source]
+```
+
+## 2. CLI Usage
+
+```bash
+# Audit any project or directory for unreferenced functions and classes
+necro-prune audit ~/.hermes/scripts
+
+# Incinerate dead code in a file in-place
+necro-prune incinerate target_script.py --inplace
+```
+
+## License
+
+MIT © Sunzzx

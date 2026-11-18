@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/necro_prune/__init__.py
+src/necro_prune/analyzer.py
+src/necro_prune/cli.py
+src/necro_prune/incinerator.py
+src/necro_prune_ast_deadcode_incinerator.egg-info/PKG-INFO
+src/necro_prune_ast_deadcode_incinerator.egg-info/SOURCES.txt
+src/necro_prune_ast_deadcode_incinerator.egg-info/dependency_links.txt
+src/necro_prune_ast_deadcode_incinerator.egg-info/entry_points.txt
+src/necro_prune_ast_deadcode_incinerator.egg-info/top_level.txt
+tests/test_necro_prune.py

@@ -1,0 +1,2 @@
+[console_scripts]
+necro-prune = necro_prune.cli:main
