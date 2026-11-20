@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: necro-prune-ast-deadcode-incinerator
-Version: 0.1.0
+Version: 0.2.0
 Summary: AST-level static dead code analysis, symbol reachability graph traversal, and zero-compromise incinerator.
 Author: Sunzzx
 License: MIT

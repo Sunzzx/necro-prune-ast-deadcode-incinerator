@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "necro-prune-ast-deadcode-incinerator"
-version = "0.1.0"
+version = "0.2.0"
 description = "AST-level static dead code analysis, symbol reachability graph traversal, and zero-compromise incinerator."
 readme = "README.md"
 authors = [{ name = "Sunzzx" }]
@@ -17,3 +17,7 @@ necro-prune = "necro_prune.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
